@@ -1,9 +1,6 @@
-a=1
-b=5
-while a<=5
-    while b>0
-        puts "*"*b
-        b=b-1
-        a=a+1
-    end
+a= gets.chomp.to_i
+if a%2==0
+    puts "#{a} is even"
+else
+    puts "#{a} is odd"
 end
