@@ -4,3 +4,5 @@ if a%2==0
 else
     puts "#{a} is odd"
 end
+puts"hello this is my project"
+
